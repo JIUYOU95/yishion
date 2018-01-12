@@ -1,0 +1,43 @@
+<include file="Public:header" />
+<ol class="breadcrumb row navigation">
+    <li class="active">门店选择</li>
+</ol>
+
+<form role="form">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="请输入店铺编号" autocomplete="off" ng-model="num" style="text-transform:uppercase;" ng-change="myFunc(num)">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" ng-model="data.larea" ng-if="data.id" ng-disabled="data.id">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" ng-model="data.sarea" ng-if="data.id" ng-disabled="data.id">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" ng-model="data.name" ng-if="data.id" ng-disabled="data.id">
+    </div>
+    <div class="form-group">
+        <select class="form-control" name="topL" ng-model="topL" ng-change="selectChange(topL);">
+            <option value="">请选择评分配置</option>
+            <foreach name="larea" item="v">
+                <option value="{$v}">{$v}</option>
+            </foreach>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary center-block">开始评估</button>
+</form>
+<p class="text-center text-muted">输入店铺编号自动带出店铺信息，该评估将保存至巡店计划</p>
+
+<script>
+    function controller($scope, $http, $filter) {
+        $scope.num="";
+        $scope.myFunc=function (num) {
+            $http.get("{:U('get_shopin')}",{params:{number:num}}).success(function (data) {
+                $scope.data=data;
+                console.log(data);
+            });
+        }
+    }
+</script>
+<include file="Public:footer" />

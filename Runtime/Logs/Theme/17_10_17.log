@@ -1,0 +1,59 @@
+[ 2017-10-17T03:20:29+08:00 ] 106.11.227.137 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004583s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.045970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050776s ]
+
+[ 2017-10-17T03:20:29+08:00 ] 106.11.225.138 /Theme/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000681s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000786s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2017-10-17T13:53:06+08:00 ] 66.102.6.89 /Theme/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003030s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.044943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000690s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000839s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002582s ]
+

@@ -1,0 +1,143 @@
+<include file="Public:header" />
+<ul class="breadcrumb row navigation">
+    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="#">巡店系统</a></li>
+    <li class="active">门店管理</li>
+</ul>
+<!--门店管理-->
+<div class="row">
+    <div class="col-sm-12">
+        <!--搜索界面-->
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <select class="selectpicker" multiple data-live-search="true"  title="请选择大区">
+                            <option>option1</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="门店名称" id="demoReload">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default submit" type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit"><i class="fa fa-search"></i> 搜索</button>
+                    <button type="button" class="btn btn-success" ng-click="add()"><i class="fa fa-plus"></i> 新增</button>
+                </form>
+
+            </div>
+        </div>
+        <!--end搜索界面-->
+        <!--门店列表-->
+        <table class="layui-hide" id="store_list"></table>
+        <script type="text/html" id="barDemo">
+            <a class="layui-btn layui-btn-primary layui-btn-mini" lay-event="detail">关闭</a>
+            <a class="layui-btn layui-btn-mini" lay-event="edit">删除</a>
+            <a class="layui-btn layui-btn-danger layui-btn-mini" lay-event="del">编辑</a>
+        </script>
+    </div>
+</div>
+
+<!--新增门店-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">新增门店</h4>
+            </div>
+            <form class="form-horizontal" action="" method="post">
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">门店名称</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="name" placeholder="门店名称" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">大区</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="larea" placeholder="大区" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">小区</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="sarea" placeholder="小区" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">具体地址</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="address" placeholder="具体地址" autocomplete="off">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="submit" class="btn btn-primary">保存</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    require(['bselect']);
+    require(['layui'],function (layui) {
+        layui.config({
+            dir: '__ROOT__/node_modules/hdjs/component/layui/',
+            version: false,
+            debug: false,
+            base: ''
+        });
+        layui.use('table', function(){
+            var table = layui.table;
+
+            //方法级渲染
+            table.render({
+                elem: '#store_list'
+                ,url: "{:U('get_store')}"
+                ,cols: [[
+                    {checkbox: true, fixed: true}
+                    ,{field:'name', title: '门店名称', width:224, sort: true}
+                    ,{field:'larea', title: '大区', width:135, sort: true}
+                    ,{field:'sarea', title: '小区', width:125, sort: true}
+                    ,{field:'address', title: '具体地址', width:230, sort: true}
+                    ,{field:'status', title: '状态', width:100, sort: true}
+                    ,{fixed: 'right', width:160, align:'center', toolbar: '#barDemo'}
+                ]]
+                ,id: 'testReload'
+                ,page: true
+                ,height: 680
+                ,loading: false
+            });
+            var $ = layui.$, active = {
+                reload: function(){
+                    var demoReload = $('#demoReload');
+
+                    table.reload('testReload', {
+                        where: {
+                            key: {
+                                id: demoReload.val()
+                            }
+                        }
+                    });
+                }
+            };
+
+            $('.form-inline .submit').on('click', function(){
+                var type = $(this).data('type');
+                active[type] ? active[type].call(this) : '';
+            });
+        });
+    });
+
+    function controller($scope) {
+        $scope.add = function(){
+            $('#myModal').modal('show');
+        }
+    }
+</script>
+<include file="Public:footer" />

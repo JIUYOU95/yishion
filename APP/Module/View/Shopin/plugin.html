@@ -1,0 +1,167 @@
+<include file="Public:header" />
+<ul class="breadcrumb row navigation">
+    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="#">巡店系统</a></li>
+    <li><a href="{:U('score')}">评分配置</a></li>
+    <li class="active">评分方案</li>
+    <span class="btn btn-primary rightbut" ng-click="add('{$pid}')">新增项目</span>
+</ul>
+<!--评分配置-->
+<div class="row">
+    <div class="col-sm-12 plugin">
+        <form action="{:U('item_order')}" method="post">
+            <ul class="list-group">
+                <li class="list-group-item active">
+                    <span></span>
+                    <span>排序</span>
+                    <span>项目名称</span>
+                    <span>操作</span>
+                </li>
+                <li class="list-group-item" ng-repeat="v in data">
+                    <div>
+                        <span ng-init="v.reid=true" ng-bind="v.reid==0?'［＋］':'［－］'" ng-click="v.reid=!v.reid"></span>
+                        <span>
+                            <input class="form-control order" type="text" name="{{v.id}}" value="{{v.sort}}" autocomplete="off">
+                        </span>
+                        <span>{{v.name}}</span>
+                        <span>
+                            <a href="#" ng-click="add_sub(v.id,'{$pid}')">新增子项目</a> |
+                            <a href="#" ng-click="edit(v.id,v.pid,v.name,v.ins,v.sort)">修改</a> |
+                            <a href="#" ng-click="top_del(v,v.id,v.name)">删除</a>
+                        </span>
+                    </div>
+                    <ul class="list-group" ng-show="v.reid">
+                        <li class="list-group-item" ng-repeat="vo in v.child">
+                            <div>
+                                <span></span>
+                                <span>
+                                    <input class="form-control order" type="text" name="{{vo.id}}" value="{{vo.sort}}" autocomplete="off">
+                                </span>
+                                <span>&emsp;&emsp;├─ {{vo.name}}</span>
+                                <span>
+                                    <a href="#" ng-click="add_sub(vo.id,'{$pid}')">新增子项目</a> |
+                                    <a href="#" ng-click="edit(vo.id,vo.pid,vo.name,vo.ins,vo.sort)">修改</a> |
+                                    <a href="#" ng-click="sub_del(vo,v,vo.id,vo.name)">删除</a>
+                                </span>
+                            </div>
+                            <ul>
+                                <li class="list-group-item" ng-repeat="vv in vo.child">
+                                    <div>
+                                        <span></span>
+                                        <span>
+                                            <input class="form-control order" type="text" name="{{vv.id}}" value="{{vv.sort}}" autocomplete="off">
+                                        </span>
+                                        <span>&emsp;&emsp;&emsp;&emsp;├─ {{vv.name}}</span>
+                                        <span>
+                                            <a href="#" ng-click="add_sub(vv.id,'{$pid}')">新增子项目</a> |
+                                            <a href="#" ng-click="edit(vv.id,vv.pid,vv.name,vv.ins,vv.sort)">修改</a> |
+                                            <a href="#" ng-click="sub_del(vv,vo,vv.id,vv.name)">删除</a>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item">
+                    <span></span>
+                    <span><input class="btn btn-success" type="submit" value="排序"></span>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+<!--新增项目-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel" ng-bind="ed.id?'修改项目':'新增项目'"></h4>
+            </div>
+            <form class="form-horizontal" action="" method="post">
+                <div class="modal-body">
+                    <input type="hidden" name="id" value="{{ed.id}}" ng-if="ed.id">
+                    <input type="hidden" name="pid" value="{{pid}}" ng-if="pid" />
+                    <input type="hidden" name="reid" value="{{reid}}" ng-if="reid" />
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">项目名称</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="name" placeholder="项目名称" autocomplete="off" required value="{{ed.name}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">项目说明</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="ins" placeholder="项目说明" autocomplete="off"  value="{{ed.ins}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">排序</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="sort" placeholder="排序" autocomplete="off"  value="{{ed.sort}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="submit" class="btn btn-primary">保存</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    require(['underscore']);
+    function controller($scope, $http, $filter) {
+        //项目列表
+        $http.get("{:U('get_item')}",{params:{id:'{$pid}'}}).success(function (response) {
+            $scope.data=response;
+        });
+        //项目新增
+        $scope.add=function (pid) {
+            $scope.pid=pid;
+            $scope.ed="";
+            $('#myModal').modal('show');
+        }
+        //新增子项目
+        $scope.add_sub=function (reid,pid) {
+            $scope.reid=reid;
+            $scope.pid=pid;
+            $scope.ed="";
+            $('#myModal').modal('show');
+        }
+        //权限修改
+        $scope.edit=function (id,pid,name,ins,sort) {
+            $scope.pid=pid;
+            $scope.ed={id:id,name:name,ins:ins,sort:sort};
+            $('#myModal').modal('show');
+        }
+        //删除一级项目
+        $scope.top_del=function (v,id,title) {
+            if(confirm('确定删除！')){
+                $http.get("{:U('delete_item')}",{params:{'id':id,'name':title}}).success(function (data) {
+                    alert(data);
+                    if(data!='请先删除子项目'){
+                        $scope.data = _.without($scope.data, v);
+                    }
+                });
+            }
+
+        }
+        //删除子级项目
+        $scope.sub_del=function (v,vv,id,title) {
+            if(confirm('确定删除！')){
+                $http.get("{:U('delete_item')}",{params:{'id':id,'name':title}}).success(function (data) {
+                    alert(data);
+                    if(data!='请先删除子项目'){
+                        vv.child = _.without(vv.child, v);
+                    }
+                });
+            }
+
+        }
+
+    }
+</script>
+<include file="Public:footer" />

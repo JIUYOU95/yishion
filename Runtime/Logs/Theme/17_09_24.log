@@ -1,0 +1,35 @@
+[ 2017-09-24T15:24:35+08:00 ] 106.11.227.209 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002806s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.131516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.134642s ]
+
+[ 2017-09-24T15:24:36+08:00 ] 106.11.227.70 /Theme/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.104694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000973s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+

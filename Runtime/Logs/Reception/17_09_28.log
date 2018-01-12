@@ -1,0 +1,1320 @@
+[ 2017-09-28T10:34:47+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000361s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002036s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0548s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.272370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.274640s ]
+NOTIC: [8] Use of undefined constant _URL_ - assumed '_URL_' /home/wwwroot/yishion/APP/Reception/Controller/InspectController.class.php 第 14 行.
+
+[ 2017-09-28T10:40:54+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.074787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.075664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002358s ]
+
+[ 2017-09-28T10:41:22+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.078435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.079495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002899s ]
+
+[ 2017-09-28T10:42:01+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.094471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.095460s ]
+
+[ 2017-09-28T10:46:34+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=fqiE8ZJ4RVNu9v4t6X_bPNDr__qVD0foBEu95SLr8QI&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.052664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054082s ]
+
+[ 2017-09-28T10:46:35+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=fqiE8ZJ4RVNu9v4t6X_bPNDr__qVD0foBEu95SLr8QI&code=nurnafnNxUw7LV5kn87lE31HPHf2s2bCbSjUmc9mhP0&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.050088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051688s ]
+
+[ 2017-09-28T10:46:35+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=fqiE8ZJ4RVNu9v4t6X_bPNDr__qVD0foBEu95SLr8QI&code=memxvF-cG36gWuc8RuRgyRP-kY_V_MgoNJbd73RvQeM&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030633s ]
+
+[ 2017-09-28T10:46:36+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=fqiE8ZJ4RVNu9v4t6X_bPNDr__qVD0foBEu95SLr8QI&code=ipTm4FbXIp3payAekVjkn9GGItwtk-4Za9XrUtmppSk&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.090762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.092793s ]
+
+[ 2017-09-28T10:46:37+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=fqiE8ZJ4RVNu9v4t6X_bPNDr__qVD0foBEu95SLr8QI&code=aiMCdLflFFVda1fR-qvhDwQedthk0qHrZdmPv15-8kM&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.028466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029452s ]
+
+[ 2017-09-28T11:03:56+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.115744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.118634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002484s ]
+
+[ 2017-09-28T11:09:06+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.045725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2017-09-28T12:00:51+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004252s ]
+
+[ 2017-09-28T12:00:52+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2017-09-28T12:00:52+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.031227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-09-28T12:01:44+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-09-28T12:02:20+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002184s ]
+
+[ 2017-09-28T12:02:20+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-09-28T13:45:12+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.093503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.095301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2017-09-28T13:45:13+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.057222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.058457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2017-09-28T13:45:14+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.041879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-09-28T13:45:15+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003903s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.056588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.061381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2017-09-28T13:45:15+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.085284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003331s ]
+
+[ 2017-09-28T13:45:17+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.041318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-09-28T13:46:45+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.031463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2017-09-28T13:46:46+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.037029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2017-09-28T13:46:47+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.035321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001932s ]
+
+[ 2017-09-28T13:47:55+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.035595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2017-09-28T13:47:56+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.037546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2017-09-28T13:48:27+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.042877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044366s ]
+
+[ 2017-09-28T13:48:28+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026919s ]
+
+[ 2017-09-28T13:49:32+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.038220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039149s ]
+
+[ 2017-09-28T13:49:33+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030804s ]
+
+[ 2017-09-28T13:49:33+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024768s ]
+
+[ 2017-09-28T13:50:07+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.030198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031131s ]
+
+[ 2017-09-28T13:50:07+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027546s ]
+
+[ 2017-09-28T13:50:08+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.040359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041500s ]
+
+[ 2017-09-28T13:50:08+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027032s ]
+
+[ 2017-09-28T13:51:14+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028417s ]
+
+[ 2017-09-28T13:51:15+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027867s ]
+
+[ 2017-09-28T13:51:36+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027747s ]
+
+[ 2017-09-28T13:51:37+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027891s ]
+
+[ 2017-09-28T13:51:38+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025341s ]
+
+[ 2017-09-28T13:51:39+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024054s ]
+
+[ 2017-09-28T13:55:52+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.022704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023416s ]
+
+[ 2017-09-28T13:55:52+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024762s ]
+
+[ 2017-09-28T13:55:53+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025985s ]
+
+[ 2017-09-28T13:55:54+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.034432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035419s ]
+
+[ 2017-09-28T13:55:54+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023670s ]
+
+[ 2017-09-28T13:55:55+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.049057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049893s ]
+
+[ 2017-09-28T13:55:55+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025219s ]
+
+[ 2017-09-28T13:56:46+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026854s ]
+
+[ 2017-09-28T13:56:46+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027658s ]
+
+[ 2017-09-28T13:56:47+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028870s ]
+
+[ 2017-09-28T13:56:47+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028614s ]
+
+[ 2017-09-28T13:56:48+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026366s ]
+
+[ 2017-09-28T13:56:48+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024563s ]
+
+[ 2017-09-28T13:56:48+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025121s ]
+
+[ 2017-09-28T13:56:49+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026146s ]
+
+[ 2017-09-28T13:56:49+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0034s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.047503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048154s ]
+
+[ 2017-09-28T13:56:49+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.030297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030918s ]
+
+[ 2017-09-28T13:56:50+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023784s ]
+
+[ 2017-09-28T13:56:50+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.028316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029041s ]
+
+[ 2017-09-28T13:56:50+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024344s ]
+
+[ 2017-09-28T13:56:51+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.031114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031730s ]
+
+[ 2017-09-28T13:56:51+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.022352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023006s ]
+
+[ 2017-09-28T13:57:17+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030305s ]
+
+[ 2017-09-28T13:57:30+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.037126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2017-09-28T13:57:42+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.022832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023889s ]
+
+[ 2017-09-28T13:57:43+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026273s ]
+
+[ 2017-09-28T14:00:04+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.039509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041379s ]
+
+[ 2017-09-28T14:00:05+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027269s ]
+
+[ 2017-09-28T14:02:48+08:00 ] 119.144.152.4 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2017-09-28T14:08:26+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.031338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032464s ]
+
+[ 2017-09-28T14:09:06+08:00 ] 119.144.152.4 /Reception
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026325s ]
+ERR: 非法操作:master
+
+[ 2017-09-28T14:09:32+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.031068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031771s ]
+
+[ 2017-09-28T14:11:59+08:00 ] 119.144.152.4 /Reception/Inspect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025245s ]
+
+[ 2017-09-28T14:17:25+08:00 ] 119.144.152.4 /Reception/Inspect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.022045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022645s ]
+
+[ 2017-09-28T14:17:26+08:00 ] 119.144.152.4 /Reception/Inspect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024725s ]
+
+[ 2017-09-28T14:17:26+08:00 ] 119.144.152.4 /Reception/Inspect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028330s ]
+
+[ 2017-09-28T14:17:27+08:00 ] 119.144.152.4 /Reception/Inspect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028703s ]
+
+[ 2017-09-28T14:17:27+08:00 ] 119.144.152.4 /Reception/Inspect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026666s ]
+
+[ 2017-09-28T14:17:28+08:00 ] 119.144.152.4 /Reception/Inspect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024451s ]
+
+[ 2017-09-28T14:17:35+08:00 ] 119.144.152.4 /Reception/Inspect/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027832s ]
+
+[ 2017-09-28T14:17:46+08:00 ] 119.144.152.4 /Reception/Inspect/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.059039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.059763s ]
+
+[ 2017-09-28T14:21:52+08:00 ] 119.144.152.4 /Reception/Inspect/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.028095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028969s ]
+
+[ 2017-09-28T14:21:53+08:00 ] 119.144.152.4 /Reception/Inspect/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028239s ]
+
+[ 2017-09-28T14:21:53+08:00 ] 119.144.152.4 /Reception/Inspect/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.050939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051740s ]
+
+[ 2017-09-28T14:23:31+08:00 ] 119.144.152.4 /Reception/Make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.034151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035179s ]
+ERR: 无法加载控制器:Make
+
+[ 2017-09-28T14:24:02+08:00 ] 119.144.152.4 /Reception/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.035009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036016s ]
+ERR: 无法加载控制器:Make
+
+[ 2017-09-28T14:24:40+08:00 ] 119.144.152.4 /Reception/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025653s ]
+
+[ 2017-09-28T14:24:42+08:00 ] 119.144.152.4 /Reception/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026506s ]
+
+[ 2017-09-28T14:24:49+08:00 ] 119.144.152.4 /Reception/Make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.030381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031227s ]
+
+[ 2017-09-28T14:31:42+08:00 ] 119.144.152.4 /Reception/Make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028036s ]
+
+[ 2017-09-28T14:31:43+08:00 ] 119.144.152.4 /Reception/Make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.036325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037218s ]
+
+[ 2017-09-28T14:36:16+08:00 ] 119.144.152.4 /Reception/Make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-09-28T14:37:40+08:00 ] 119.144.152.4 /Reception/Make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-09-28T14:39:27+08:00 ] 119.144.152.4 /Reception/Make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029962s ]
+
+[ 2017-09-28T14:39:35+08:00 ] 119.144.152.4 /Reception/Make
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024937s ]
+
+[ 2017-09-28T14:39:37+08:00 ] 119.144.152.4 /Reception/Make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.034938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036028s ]
+
+[ 2017-09-28T14:39:38+08:00 ] 119.144.152.4 /Reception/Inspect/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025701s ]
+ERR: 无法加载控制器:Inspect
+
+[ 2017-09-28T14:39:54+08:00 ] 119.144.152.4 /Reception/Make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.038002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039058s ]
+
+[ 2017-09-28T14:40:26+08:00 ] 14.17.37.145 /Reception/make/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028465s ]
+
+[ 2017-09-28T14:40:27+08:00 ] 14.17.37.145 /Reception/make/index.html?code=Ic7QUmZbFv6pH2AYTe1Uj-4R0zTK4xjHE120fc1PEDE&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.034593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035374s ]
+
+[ 2017-09-28T14:40:27+08:00 ] 14.17.37.145 /Reception/make/index.html?code=Ic7QUmZbFv6pH2AYTe1Uj-4R0zTK4xjHE120fc1PEDE&code=Ct6RbF01d6JlqzRAIg7kJF5-60LCRYfjV1E7QJ1jVFw&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.035317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036644s ]
+
+[ 2017-09-28T14:40:28+08:00 ] 14.17.37.145 /Reception/make/index.html?code=Ic7QUmZbFv6pH2AYTe1Uj-4R0zTK4xjHE120fc1PEDE&code=TXxW8k6DuyTQ5HSBy3PsrBc0Z1FDJUGDb6BfyoMl-Sc&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030114s ]
+
+[ 2017-09-28T14:40:29+08:00 ] 14.17.37.145 /Reception/make/index.html?code=Ic7QUmZbFv6pH2AYTe1Uj-4R0zTK4xjHE120fc1PEDE&code=BCZDIBsGlF3svGAI0UfxwQztIOvDpi_rswI49N9LjZM&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028852s ]
+
+[ 2017-09-28T14:40:30+08:00 ] 14.17.37.145 /Reception/make/index.html?code=Ic7QUmZbFv6pH2AYTe1Uj-4R0zTK4xjHE120fc1PEDE&code=8-MfxN6Xn-xX7KcWlbMsA8WzPlUtcFxMEyIlTRx1IDI&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026455s ]
+
+[ 2017-09-28T14:40:30+08:00 ] 14.17.37.145 /Reception/make/index.html?code=Ic7QUmZbFv6pH2AYTe1Uj-4R0zTK4xjHE120fc1PEDE&code=X6eS4mdiNVTde68jVvJzklNYOCquJSg9Cejc9YWeR1E&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027066s ]
+
+[ 2017-09-28T15:21:25+08:00 ] 14.17.37.145 /Reception/Make/index.html?code=aymoSePasYwp4jFjgKLXP84p8Wal2bh16gxIKSOkdpk&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.041715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043582s ]
+
+[ 2017-09-28T17:01:50+08:00 ] 14.17.37.145 /Reception/Make/index.html?code=GPyKnws2gvk2lirXlLhzlt4Zev-yBApflUmecto6f7Q&state=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.045834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046647s ]
+

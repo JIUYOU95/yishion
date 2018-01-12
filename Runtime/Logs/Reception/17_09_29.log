@@ -1,0 +1,508 @@
+[ 2017-09-29T11:32:06+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014765s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 20 行.
+
+[ 2017-09-29T11:33:26+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023665s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 20 行.
+
+[ 2017-09-29T11:34:35+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030823s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 21 行.
+
+[ 2017-09-29T11:35:33+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.055007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.055674s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 35 行.
+
+[ 2017-09-29T11:53:41+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000475s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.051974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.053851s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 21 行.
+
+[ 2017-09-29T14:11:33+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000344s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0573s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.151471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.153754s ]
+ERR: Request AccessToken fail. response: {"errcode":41004,"errmsg":"corpsecret missing, hint: [1506665551_5ab52095e6a248e90d8624bdcb877441]"}
+
+[ 2017-09-29T14:23:35+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030626s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/APP/Common/Common/helper.php:9) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/APP/Common/Common/helper.php:9) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-09-29T14:24:10+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.051017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.053387s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 20 行.
+
+[ 2017-09-29T14:25:31+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.038921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039995s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-09-29T14:27:44+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.020895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022120s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-09-29T14:27:45+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=zzO4qMIS7goZppCceaeqhrAt6zdtfgwKyhZO2slj5Ww&state=fe6c02ae369d1ef0ae6eefac90e68b00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019251s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-09-29T14:27:46+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=zzO4qMIS7goZppCceaeqhrAt6zdtfgwKyhZO2slj5Ww&state=fe6c02ae369d1ef0ae6eefac90e68b00&code=7TGu60qz3BGBQRjXPu7-gR3ivQ3KxlPvSco3ESBsWZA&state=08d8bc7a8adc14a080585a25d317b8cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020150s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-09-29T14:27:47+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=zzO4qMIS7goZppCceaeqhrAt6zdtfgwKyhZO2slj5Ww&state=fe6c02ae369d1ef0ae6eefac90e68b00&code=7TGu60qz3BGBQRjXPu7-gR3ivQ3KxlPvSco3ESBsWZA&state=08d8bc7a8adc14a080585a25d317b8cc&code=nTjTCNOITezir9eX9VtFvACx9nZOk529Ndvr6JSeKd4&state=46b464d90f5e197330a6a869c1a65c70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013428s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-09-29T14:27:48+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=zzO4qMIS7goZppCceaeqhrAt6zdtfgwKyhZO2slj5Ww&state=fe6c02ae369d1ef0ae6eefac90e68b00&code=7TGu60qz3BGBQRjXPu7-gR3ivQ3KxlPvSco3ESBsWZA&state=08d8bc7a8adc14a080585a25d317b8cc&code=nTjTCNOITezir9eX9VtFvACx9nZOk529Ndvr6JSeKd4&state=46b464d90f5e197330a6a869c1a65c70&code=Kj3rh3AiNVmAu52Z9ylpn_nEGKnB5TWjbJuskWtilUs&state=6f0842f00e56a1e21c17ab7f26afe727
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.021904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023715s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-09-29T14:27:49+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=zzO4qMIS7goZppCceaeqhrAt6zdtfgwKyhZO2slj5Ww&state=fe6c02ae369d1ef0ae6eefac90e68b00&code=7TGu60qz3BGBQRjXPu7-gR3ivQ3KxlPvSco3ESBsWZA&state=08d8bc7a8adc14a080585a25d317b8cc&code=nTjTCNOITezir9eX9VtFvACx9nZOk529Ndvr6JSeKd4&state=46b464d90f5e197330a6a869c1a65c70&code=Kj3rh3AiNVmAu52Z9ylpn_nEGKnB5TWjbJuskWtilUs&state=6f0842f00e56a1e21c17ab7f26afe727&code=3OvMZ8kbwJkofSI5xlTHkMYUcxHitK1zqxsD-dK_8oc&state=e8e563446f8aa756b7f9f4c8cd378455
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013494s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-09-29T14:29:10+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026939s ]
+
+[ 2017-09-29T14:29:11+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=K2NVv83XLX8ctzozHwBrw16RbmzDf_oDSa8VwdXlv6w&state=83aa12cb36990ef9afaeeb52b6692952
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019305s ]
+
+[ 2017-09-29T14:29:13+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=K2NVv83XLX8ctzozHwBrw16RbmzDf_oDSa8VwdXlv6w&state=83aa12cb36990ef9afaeeb52b6692952&code=0IFFVLzOnlc9CYAUAbICTRXuIQa1lniiSK6A6cPeaCA&state=0924b76d971fb4906d7e47415d2027ad
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015603s ]
+
+[ 2017-09-29T14:29:14+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=K2NVv83XLX8ctzozHwBrw16RbmzDf_oDSa8VwdXlv6w&state=83aa12cb36990ef9afaeeb52b6692952&code=0IFFVLzOnlc9CYAUAbICTRXuIQa1lniiSK6A6cPeaCA&state=0924b76d971fb4906d7e47415d2027ad&code=jGaooW8wo87hFwLoidGJN84Rze0s0oNtzZjrcg2NTIc&state=bf79510628861c9eef4715e95cee1e84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019720s ]
+
+[ 2017-09-29T14:30:36+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015372s ]
+
+[ 2017-09-29T14:30:37+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014616s ]
+
+[ 2017-09-29T14:30:38+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018996s ]
+
+[ 2017-09-29T14:30:39+08:00 ] 14.17.37.146 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198&code=c8ITGHIIFVLlxTM2eDkCHDKFpZIdc4ulwnpr1inn1k8&state=97e608df00b20a0eaa1f9d3478385502
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019916s ]
+
+[ 2017-09-29T14:30:40+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198&code=c8ITGHIIFVLlxTM2eDkCHDKFpZIdc4ulwnpr1inn1k8&state=97e608df00b20a0eaa1f9d3478385502&code=aBcc2n7OX2_Dam702scsI38gRjLZIHxLQozbxTl8OSw&state=e09bb0e1f0a4194b8a4437fef3eb7a90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017493s ]
+
+[ 2017-09-29T14:30:41+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198&code=c8ITGHIIFVLlxTM2eDkCHDKFpZIdc4ulwnpr1inn1k8&state=97e608df00b20a0eaa1f9d3478385502&code=aBcc2n7OX2_Dam702scsI38gRjLZIHxLQozbxTl8OSw&state=e09bb0e1f0a4194b8a4437fef3eb7a90&code=t1qMznww1xWYUpVmotbpgtvOwN_RUQnpjrBXMqfTzdc&state=136c4de6ebd0acceea2f0803cb6266bd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018883s ]
+
+[ 2017-09-29T14:30:42+08:00 ] 14.17.37.146 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198&code=c8ITGHIIFVLlxTM2eDkCHDKFpZIdc4ulwnpr1inn1k8&state=97e608df00b20a0eaa1f9d3478385502&code=aBcc2n7OX2_Dam702scsI38gRjLZIHxLQozbxTl8OSw&state=e09bb0e1f0a4194b8a4437fef3eb7a90&code=t1qMznww1xWYUpVmotbpgtvOwN_RUQnpjrBXMqfTzdc&state=136c4de6ebd0acceea2f0803cb6266bd&code=SlCS7C9Mnwe9DgZbK-rNx2em7KDJlvyfA1-BvwHgXlU&state=9bf438933b26fe1fbeca9fd28f9b66ce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013816s ]
+
+[ 2017-09-29T14:30:43+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198&code=c8ITGHIIFVLlxTM2eDkCHDKFpZIdc4ulwnpr1inn1k8&state=97e608df00b20a0eaa1f9d3478385502&code=aBcc2n7OX2_Dam702scsI38gRjLZIHxLQozbxTl8OSw&state=e09bb0e1f0a4194b8a4437fef3eb7a90&code=t1qMznww1xWYUpVmotbpgtvOwN_RUQnpjrBXMqfTzdc&state=136c4de6ebd0acceea2f0803cb6266bd&code=SlCS7C9Mnwe9DgZbK-rNx2em7KDJlvyfA1-BvwHgXlU&state=9bf438933b26fe1fbeca9fd28f9b66ce&code=iVJHqTpjYnYdpU6EGGFiCLrJsKamvA3dD5eyHIt5cIg&state=24727f2731d3e810ad8df99920aaee75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015318s ]
+
+[ 2017-09-29T14:30:44+08:00 ] 14.17.37.146 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198&code=c8ITGHIIFVLlxTM2eDkCHDKFpZIdc4ulwnpr1inn1k8&state=97e608df00b20a0eaa1f9d3478385502&code=aBcc2n7OX2_Dam702scsI38gRjLZIHxLQozbxTl8OSw&state=e09bb0e1f0a4194b8a4437fef3eb7a90&code=t1qMznww1xWYUpVmotbpgtvOwN_RUQnpjrBXMqfTzdc&state=136c4de6ebd0acceea2f0803cb6266bd&code=SlCS7C9Mnwe9DgZbK-rNx2em7KDJlvyfA1-BvwHgXlU&state=9bf438933b26fe1fbeca9fd28f9b66ce&code=iVJHqTpjYnYdpU6EGGFiCLrJsKamvA3dD5eyHIt5cIg&state=24727f2731d3e810ad8df99920aaee75&code=Ie4yQnT69kwEn1Ie_NB8iWrHFDSUruztDYwRczCec5c&state=a52c93d9a9f1030bfebef2984d65bda4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013299s ]
+
+[ 2017-09-29T14:30:44+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198&code=c8ITGHIIFVLlxTM2eDkCHDKFpZIdc4ulwnpr1inn1k8&state=97e608df00b20a0eaa1f9d3478385502&code=aBcc2n7OX2_Dam702scsI38gRjLZIHxLQozbxTl8OSw&state=e09bb0e1f0a4194b8a4437fef3eb7a90&code=t1qMznww1xWYUpVmotbpgtvOwN_RUQnpjrBXMqfTzdc&state=136c4de6ebd0acceea2f0803cb6266bd&code=SlCS7C9Mnwe9DgZbK-rNx2em7KDJlvyfA1-BvwHgXlU&state=9bf438933b26fe1fbeca9fd28f9b66ce&code=iVJHqTpjYnYdpU6EGGFiCLrJsKamvA3dD5eyHIt5cIg&state=24727f2731d3e810ad8df99920aaee75&code=Ie4yQnT69kwEn1Ie_NB8iWrHFDSUruztDYwRczCec5c&state=a52c93d9a9f1030bfebef2984d65bda4&code=vMe7zEx2GK4_-aY0r_amjotLdXJIh3RKPR4qI_QOoCE&state=1270cec89f97037cbc4459b4d49b19e2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017799s ]
+
+[ 2017-09-29T14:30:45+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198&code=c8ITGHIIFVLlxTM2eDkCHDKFpZIdc4ulwnpr1inn1k8&state=97e608df00b20a0eaa1f9d3478385502&code=aBcc2n7OX2_Dam702scsI38gRjLZIHxLQozbxTl8OSw&state=e09bb0e1f0a4194b8a4437fef3eb7a90&code=t1qMznww1xWYUpVmotbpgtvOwN_RUQnpjrBXMqfTzdc&state=136c4de6ebd0acceea2f0803cb6266bd&code=SlCS7C9Mnwe9DgZbK-rNx2em7KDJlvyfA1-BvwHgXlU&state=9bf438933b26fe1fbeca9fd28f9b66ce&code=iVJHqTpjYnYdpU6EGGFiCLrJsKamvA3dD5eyHIt5cIg&state=24727f2731d3e810ad8df99920aaee75&code=Ie4yQnT69kwEn1Ie_NB8iWrHFDSUruztDYwRczCec5c&state=a52c93d9a9f1030bfebef2984d65bda4&code=vMe7zEx2GK4_-aY0r_amjotLdXJIh3RKPR4qI_QOoCE&state=1270cec89f97037cbc4459b4d49b19e2&code=P-8jaeSKeiuUlU6qU13ErR7QmwBfajBiQ-Bk7AeOzPA&state=1270cec89f97037cbc4459b4d49b19e2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.011713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012326s ]
+
+[ 2017-09-29T14:30:46+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=sJYcI1vGfyNBcA4ZpJZkFT8ISAUDF4VWwoSwg_pNDcs&state=a216d6edbbc093278e24399ff4dcce66&code=fQIb8FqhDFtmi38L8HyLQsBTKxVp0ozVXkkSSl1rczY&state=859a78588f369948b54d3ba868b00198&code=c8ITGHIIFVLlxTM2eDkCHDKFpZIdc4ulwnpr1inn1k8&state=97e608df00b20a0eaa1f9d3478385502&code=aBcc2n7OX2_Dam702scsI38gRjLZIHxLQozbxTl8OSw&state=e09bb0e1f0a4194b8a4437fef3eb7a90&code=t1qMznww1xWYUpVmotbpgtvOwN_RUQnpjrBXMqfTzdc&state=136c4de6ebd0acceea2f0803cb6266bd&code=SlCS7C9Mnwe9DgZbK-rNx2em7KDJlvyfA1-BvwHgXlU&state=9bf438933b26fe1fbeca9fd28f9b66ce&code=iVJHqTpjYnYdpU6EGGFiCLrJsKamvA3dD5eyHIt5cIg&state=24727f2731d3e810ad8df99920aaee75&code=Ie4yQnT69kwEn1Ie_NB8iWrHFDSUruztDYwRczCec5c&state=a52c93d9a9f1030bfebef2984d65bda4&code=vMe7zEx2GK4_-aY0r_amjotLdXJIh3RKPR4qI_QOoCE&state=1270cec89f97037cbc4459b4d49b19e2&code=P-8jaeSKeiuUlU6qU13ErR7QmwBfajBiQ-Bk7AeOzPA&state=1270cec89f97037cbc4459b4d49b19e2&code=UYiHAtbYtGedxBx5R1drXBLgsf-s-hZ2SowjabUy7uQ&state=3cfe3623b37af47af6e7ed1d0527f3bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015653s ]
+
+[ 2017-09-29T15:17:23+08:00 ] 119.144.152.4 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018301s ]
+
+[ 2017-09-29T15:19:21+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020538s ]
+
+[ 2017-09-29T15:19:22+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=f8s-Mw6AMO5_l388dqJKSIPAQ50JfrkBh9fw-J2gPV8&state=4e055d9f02a74d9fa19f2d411ec9bad4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014698s ]
+
+[ 2017-09-29T15:19:23+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=f8s-Mw6AMO5_l388dqJKSIPAQ50JfrkBh9fw-J2gPV8&state=4e055d9f02a74d9fa19f2d411ec9bad4&code=j6xIhZEL2sCUkm1uS39jlt3F560zb6bZZdvzAfKBdcs&state=02fbec3a2f82e8e3fc395d19986b589c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016906s ]
+
+[ 2017-09-29T15:19:24+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=f8s-Mw6AMO5_l388dqJKSIPAQ50JfrkBh9fw-J2gPV8&state=4e055d9f02a74d9fa19f2d411ec9bad4&code=j6xIhZEL2sCUkm1uS39jlt3F560zb6bZZdvzAfKBdcs&state=02fbec3a2f82e8e3fc395d19986b589c&code=YDpF27xYO-DEeKckZN0T5ZhGhDmsBsbGXfyusD7bZ04&state=d8c681c07b499f5f6de6a803768cfc08
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014859s ]
+
+[ 2017-09-29T15:19:25+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=f8s-Mw6AMO5_l388dqJKSIPAQ50JfrkBh9fw-J2gPV8&state=4e055d9f02a74d9fa19f2d411ec9bad4&code=j6xIhZEL2sCUkm1uS39jlt3F560zb6bZZdvzAfKBdcs&state=02fbec3a2f82e8e3fc395d19986b589c&code=YDpF27xYO-DEeKckZN0T5ZhGhDmsBsbGXfyusD7bZ04&state=d8c681c07b499f5f6de6a803768cfc08&code=tjyL0em4Fjo3Qr5rMmxALF-_Qt5aWRnl2eVwlBrmgIk&state=f9bc2510015f71f7bea3cdc1cd9bae03
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.039189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040503s ]
+
+[ 2017-09-29T15:19:26+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=f8s-Mw6AMO5_l388dqJKSIPAQ50JfrkBh9fw-J2gPV8&state=4e055d9f02a74d9fa19f2d411ec9bad4&code=j6xIhZEL2sCUkm1uS39jlt3F560zb6bZZdvzAfKBdcs&state=02fbec3a2f82e8e3fc395d19986b589c&code=YDpF27xYO-DEeKckZN0T5ZhGhDmsBsbGXfyusD7bZ04&state=d8c681c07b499f5f6de6a803768cfc08&code=tjyL0em4Fjo3Qr5rMmxALF-_Qt5aWRnl2eVwlBrmgIk&state=f9bc2510015f71f7bea3cdc1cd9bae03&code=zUV9DH90RQaTvsHW2PsZfrXr47N7J2K90xX6C9YMpBI&state=a0518df5332a1b46976307f0d5c6957b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019921s ]
+
+[ 2017-09-29T15:41:09+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015214s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 19 行.
+
+[ 2017-09-29T16:55:46+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027375s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 20 行.
+
+[ 2017-09-29T17:07:47+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.077381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.078656s ]
+
+[ 2017-09-29T17:08:20+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.036984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038083s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 47 行.
+
+[ 2017-09-29T17:08:24+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015310s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 47 行.
+

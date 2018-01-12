@@ -1,0 +1,59 @@
+<include file="Public:header" />
+<ul class="breadcrumb row navigation">
+    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="#">投票系统</a></li>
+    <li><a href="{:U('index')}">投票列表</a></li>
+    <li class="active">明细查看</li>
+    <a href="{:U('detailed_export',array('id'=>$name['id']))}" class="btn btn-primary rightbut">导出Excel</a>
+</ul>
+<div class="row">
+    <div class="col-sm-12">
+        <h3 class="text-center">{$name.title}</h3>
+        <table class="table table-bordered table-condensed vote_img">
+            <thead>
+            <tr>
+                <th>设计师</th>
+                <th>办事处</th>
+                <th>投票人</th>
+                <th>系列</th>
+                <th>颜色</th>
+                <th>性别</th>
+                <th>投票号</th>
+                <th>图片</th>
+                <th>结果</th>
+            </tr>
+            </thead>
+            <tbody>
+            <foreach name="data" item="v">
+                <tr>
+                    <td>{$v.designer}</td>
+                    <td>{$v.office_id}</td>
+                    <td>{$v.user}</td>
+                    <td>{$v.series}</td>
+                    <td>{$v.colour}</td>
+                    <td>{$v.sex}</td>
+                    <td>{$v.vote_id}</td>
+                    <td class="img"><img src="__ROOT__/Upload/vote/{$v.picture}"></td>
+                    <td>
+                        <if condition="$v.result_value eq 1">
+                            赞同
+                        <elseif condition="$v.result_value eq 2"/>
+                            不赞同
+                        </if>
+
+                    </td>
+                </tr>
+            </foreach>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</div>
+
+<script>
+    function controller($scope, $http, $filter) {
+    }
+</script>
+
+<include file="Public:footer" />

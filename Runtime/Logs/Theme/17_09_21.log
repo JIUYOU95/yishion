@@ -1,0 +1,440 @@
+[ 2017-09-21T09:26:52+08:00 ] 221.11.231.35 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.049071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050510s ]
+
+[ 2017-09-21T09:26:53+08:00 ] 124.236.175.153 /Theme/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003034s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.081117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.085130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000917s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003716s ]
+
+[ 2017-09-21T14:45:14+08:00 ] 119.144.152.91 /Theme/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.196155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.197635s ]
+
+[ 2017-09-21T14:45:15+08:00 ] 119.144.152.91 /Theme/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.099818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000907s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2017-09-21T14:45:21+08:00 ] 119.144.152.91 /Theme/Login/sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.100576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103052s ]
+SQL: SHOW COLUMNS FROM `ys_admin` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ys_admin` WHERE `username` = 'yishion' AND `password` = '4ebd0bf1a82a3e8ab3105224151d2010' LIMIT 1   [ RunTime:0.0119s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `ys_admin` SET `username`='yishion',`password`='4ebd0bf1a82a3e8ab3105224151d2010',`phone`=NULL,`email`='',`status`='1',`regtime`='1504167550',`loginip`='119.144.152.91',`logintime`='1505976320' WHERE `id` = 1 [ RunTime:0.0147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002081s ]
+
+[ 2017-09-21T14:45:22+08:00 ] 119.144.152.91 /Theme/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.065356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067729s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2017-09-21T14:45:23+08:00 ] 119.144.152.91 /Theme/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.078656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.080473s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: select version() as ver [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: browserplatform /home/wwwroot/yishion/APP/Common/Common/helper.php 第 95 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 96 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 99 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 102 行.
+NOTIC: [8192] Function ereg() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 102 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 105 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 105 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 108 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 108 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 111 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 111 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 114 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2017-09-21T14:45:26+08:00 ] 119.144.152.91 /Theme/edit_pwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.032765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033796s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2017-09-21T15:23:28+08:00 ] 119.144.152.91 /Theme/edit_pwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027303s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-09-21T15:24:31+08:00 ] 119.144.152.91 /Theme/edit_pwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.028174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028960s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002197s ]
+
+[ 2017-09-21T15:24:37+08:00 ] 119.144.152.91 /Theme/edit_pwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028282s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_admin` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `ys_admin` SET `password`='d41d8cd98f00b204e9800998ecf8427e',`logintime`='1505978677' WHERE `id` = 1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2017-09-21T15:24:39+08:00 ] 119.144.152.91 /Theme/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.035621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036686s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: select version() as ver [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: browserplatform /home/wwwroot/yishion/APP/Common/Common/helper.php 第 95 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 96 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 99 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 102 行.
+NOTIC: [8192] Function ereg() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 102 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 105 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 105 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 108 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 108 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 111 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 111 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 114 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-09-21T15:24:43+08:00 ] 119.144.152.91 /Theme/edit_pwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.028004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029024s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-09-21T15:47:54+08:00 ] 106.11.226.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.031531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032669s ]
+
+[ 2017-09-21T15:47:54+08:00 ] 106.11.242.143 /Theme/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.038251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-09-21T17:42:06+08:00 ] 119.144.152.91 /Theme/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028884s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2017-09-21T17:42:07+08:00 ] 119.144.152.91 /Theme/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.039697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040613s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: select version() as ver [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: browserplatform /home/wwwroot/yishion/APP/Common/Common/helper.php 第 95 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 96 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 99 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 102 行.
+NOTIC: [8192] Function ereg() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 102 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 105 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 105 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 108 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 108 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 111 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 111 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 114 行.
+NOTIC: [8192] Function eregi() is deprecated /home/wwwroot/yishion/APP/Common/Common/helper.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+

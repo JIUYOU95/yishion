@@ -1,0 +1,2615 @@
+[ 2017-10-05T08:31:26+08:00 ] 119.144.152.172 /Module/Shopin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.020463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022137s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-10-05T08:31:26+08:00 ] 119.144.152.172 /Module/Shopin/store.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015460s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_store` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: data /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 38 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_store` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_store` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `larea` FROM `ys_store`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2017-10-05T08:35:50+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.048552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050086s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002402s ]
+
+[ 2017-10-05T08:35:51+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018887s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2017-10-05T08:35:54+08:00 ] 119.144.152.172 /Module/Shopin/plugin.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028683s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_item` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-10-05T08:35:55+08:00 ] 119.144.152.172 /Module/Shopin/get_item.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013225s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_item` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_item` WHERE `pid` = 2  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2017-10-05T09:24:37+08:00 ] 119.144.152.172 /Module/Config/wset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.020006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021070s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-10-05T16:37:11+08:00 ] 119.144.152.172 /Module/Shopin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.031379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032312s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2017-10-05T16:37:14+08:00 ] 119.144.152.172 /Module/Shopin/store.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016772s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_store` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: data /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 38 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_store` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_store` ORDER BY id LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `larea` FROM `ys_store`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-10-05T17:23:36+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013625s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-10-05T17:23:41+08:00 ] 119.144.152.172 /Module/Config/log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017337s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: where /home/wwwroot/yishion/APP/Module/Controller/ConfigController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_log` LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT * FROM `ys_log` ORDER BY id desc LIMIT 0,14   [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: name /home/wwwroot/yishion/Runtime/Cache/Module/1463ba93c5327f12cfc2e0f102153bd5.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-10-05T17:23:43+08:00 ] 119.144.152.172 /Module/Config/log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019179s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where /home/wwwroot/yishion/APP/Module/Controller/ConfigController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_log` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ys_log` ORDER BY id desc LIMIT 0,14   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: name /home/wwwroot/yishion/Runtime/Cache/Module/1463ba93c5327f12cfc2e0f102153bd5.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-10-05T17:23:48+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014430s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-10-05T17:23:48+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019131s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-10-05T17:23:53+08:00 ] 119.144.152.172 /Module/Shopin/store.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018596s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_store` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: data /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 38 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_store` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ys_store` ORDER BY id LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `larea` FROM `ys_store`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001862s ]
+
+[ 2017-10-05T17:26:32+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014082s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-10-05T17:26:32+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014475s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-10-05T17:26:37+08:00 ] 119.144.152.172 /Module/Shopin/plugin.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018692s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_item` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2017-10-05T17:26:38+08:00 ] 119.144.152.172 /Module/Shopin/get_item.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015357s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_item` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_item` WHERE `pid` = 2  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-10-05T17:26:45+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014810s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-10-05T17:26:45+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013944s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2017-10-05T17:26:45+08:00 ] 119.144.152.172 /Module/Shopin/store.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014028s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_store` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: data /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 38 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_store` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ys_store` ORDER BY id LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `larea` FROM `ys_store`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2017-10-05T17:26:59+08:00 ] 119.144.152.172 /Module/Shopin/edit_store.html?id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016321s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_store` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_store` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2017-10-05T17:29:10+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016359s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2017-10-05T17:29:11+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015847s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2017-10-05T17:36:15+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019375s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-10-05T17:36:16+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016021s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2017-10-05T17:37:36+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014564s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2017-10-05T17:37:39+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.029665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030434s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-10-05T17:38:37+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014490s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-10-05T17:38:40+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017987s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-10-05T17:44:08+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015673s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2017-10-05T17:44:11+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027891s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-10-05T17:44:21+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013641s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_project` (`name`,`uid`) VALUES ('1212','1') [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0026s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507196661','119.144.152.172','操作评分方案-1212') [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-10-05T17:44:23+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020091s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-10-05T17:44:26+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019749s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2017-10-05T17:44:38+08:00 ] 119.144.152.172 /Module/Rule/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013418s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT u.id,u.username,u.password,u.email,u.status,u.regtime,u.loginip,u.logintime,aga.group_id,ag.title FROM ys_auth_group_access aga RIGHT JOIN ys_admin u ON aga.uid=u.id LEFT JOIN ys_auth_group ag ON aga.group_id=ag.id   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_auth_group`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/yishion/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/yishion/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-10-05T17:45:03+08:00 ] 119.144.152.172 /Module/Rule/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017238s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0011s ]
+SQL: SELECT u.id,u.username,u.password,u.email,u.status,u.regtime,u.loginip,u.logintime,aga.group_id,ag.title FROM ys_auth_group_access aga RIGHT JOIN ys_admin u ON aga.uid=u.id LEFT JOIN ys_auth_group ag ON aga.group_id=ag.id   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_auth_group`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/yishion/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/yishion/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003806s ]
+
+[ 2017-10-05T17:45:05+08:00 ] 119.144.152.172 /Module/Rule/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018434s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_auth_group`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2017-10-05T17:45:06+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020104s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2017-10-05T17:45:07+08:00 ] 119.144.152.172 /Module/Rule/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015315s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_auth_group`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-10-05T17:45:09+08:00 ] 119.144.152.172 /Module/Rule/rule_group/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015393s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_auth_group` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2017-10-05T17:45:13+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020456s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2017-10-05T17:46:01+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017738s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('0','通讯录','Admin/ShowNav/people') [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0050s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507196761','119.144.152.172','添加权限-通讯录') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2017-10-05T17:46:03+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019048s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-10-05T17:46:23+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.021124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022194s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('0','巡店系统','Admin/ShowNav/Shopin') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0036s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507196783','119.144.152.172','添加权限-巡店系统') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2017-10-05T17:46:25+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.093023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.093972s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2017-10-05T17:47:08+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016040s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('31','巡店记录','Module/Shopin/lists') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0017s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507196828','119.144.152.172','添加权限-巡店记录') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2017-10-05T17:47:10+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015188s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0795s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-10-05T17:47:34+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014834s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('31','门店管理','Module/Shopin/store') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0017s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507196854','119.144.152.172','添加权限-门店管理') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-10-05T17:47:35+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020066s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2017-10-05T17:48:15+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016914s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0009s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('33','新增门店','Module/Shopin/add_store') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0009s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507196895','119.144.152.172','添加权限-新增门店') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-10-05T17:48:17+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015709s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-10-05T17:48:35+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018364s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('33','修改门店','Module/Shopin/edit_store') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507196915','119.144.152.172','添加权限-修改门店') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-10-05T17:48:36+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013701s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-10-05T17:48:58+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017055s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('33','删除门店','Module/Shopin/del_store') [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0042s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507196938','119.144.152.172','添加权限-删除门店') [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-10-05T17:48:59+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016088s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2017-10-05T17:49:41+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014117s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('33','获取小区','Module/Shopin/get_sarea') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0023s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507196981','119.144.152.172','添加权限-获取小区') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2017-10-05T17:49:42+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018550s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-10-05T17:50:02+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.021477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022868s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0009s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('33','门店列表','Module/Shopin/get_store') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0017s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197002','119.144.152.172','添加权限-门店列表') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-10-05T17:50:04+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018851s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-10-05T17:50:24+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018968s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('33','门店导入','Module/Shopin/upload') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0011s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197024','119.144.152.172','添加权限-门店导入') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-10-05T17:50:25+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.020170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021290s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2017-10-05T17:50:48+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017897s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0014s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('31','评分配置','Module/Shopin/score') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0008s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197048','119.144.152.172','添加权限-评分配置') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2017-10-05T17:50:49+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000339s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013079s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-10-05T17:51:24+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015466s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('40','评分方案列表','Module/Shopin/get_project') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197084','119.144.152.172','添加权限-评分方案列表') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-10-05T17:51:26+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014038s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2017-10-05T17:51:58+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020131s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('40','删除评分方案','Module/Shopin/del_project') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197118','119.144.152.172','添加权限-删除评分方案') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-10-05T17:52:00+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015459s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2017-10-05T17:56:03+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016291s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('40','方案项目','Module/Shopin/plugin') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0008s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197363','119.144.152.172','添加权限-方案项目') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-10-05T17:56:05+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014711s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-10-05T17:56:58+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017221s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0012s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('40','获取方案项目','Module/Shopin/get_item') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0011s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197418','119.144.152.172','添加权限-获取方案项目') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-10-05T17:56:59+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015431s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-10-05T17:57:22+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018761s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0009s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('40','方案项目排序','Module/Shopin/item_order') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0006s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197442','119.144.152.172','添加权限-方案项目排序') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-10-05T17:57:23+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017453s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2017-10-05T17:57:41+08:00 ] 119.144.152.172 /Module/Rule/add_rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018562s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0011s ]
+SQL: INSERT INTO `ys_auth_rule` (`pid`,`title`,`name`) VALUES ('40','方案项目删除','Module/Shopin/delete_item') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0012s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197461','119.144.152.172','添加权限-方案项目删除') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-10-05T17:57:43+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015387s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-10-05T17:58:27+08:00 ] 119.144.152.172 /Module/Rule/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013151s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-10-05T17:58:28+08:00 ] 119.144.152.172 /Module/Rule/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013961s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_auth_group`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-10-05T17:58:30+08:00 ] 119.144.152.172 /Module/Rule/rule_group/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015994s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_auth_group` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-10-05T17:58:36+08:00 ] 119.144.152.172 /Module/Rule/rule_group/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012711s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group` [ RunTime:0.0008s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given /home/wwwroot/yishion/APP/Common/Model/BaseModel.class.php 第 47 行.
+SQL: UPDATE `ys_auth_group` SET `id`='5',`rules`='1,3,29,2,5,8,10,11,12,6,7,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46' WHERE `id` = 5 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0009s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('yishion','1507197516','119.144.152.172','分配权限') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-10-05T17:58:37+08:00 ] 119.144.152.172 /Module/Rule/rule_group/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.043323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043947s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_auth_group` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_auth_rule` ORDER BY id is null,id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2017-10-05T17:58:46+08:00 ] 119.144.152.172 /Module/Shopin/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017777s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-10-05T17:58:48+08:00 ] 119.144.152.172 /Module/Shopin/store.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019435s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_store` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: data /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 39 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ys_store` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ys_store` ORDER BY id LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT DISTINCT  `larea` FROM `ys_store`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-10-05T17:58:49+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014084s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-10-05T17:58:50+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014534s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-10-05T17:59:03+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016392s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `ys_project` (`name`,`uid`) VALUES ('撒的发生的','4') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0011s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('以纯','1507197543','119.144.152.172','操作评分方案-撒的发生的') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-10-05T17:59:04+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014540s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0007s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2017-10-05T17:59:05+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013531s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-10-05T17:59:15+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018541s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/yishion/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `ys_project` SET `name`='阿斯顿发斯蒂芬',`uid`='4' WHERE `id` = 7 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ys_log` [ RunTime:0.0017s ]
+SQL: INSERT INTO `ys_log` (`uid`,`time`,`ip`,`logtext`) VALUES ('以纯','1507197555','119.144.152.172','操作评分方案-阿斯顿发斯蒂芬') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-10-05T17:59:16+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013906s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-10-05T17:59:17+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014262s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_project`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2017-10-05T18:04:21+08:00 ] 119.144.152.172 /Module/Shopin/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017687s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2017-10-05T18:04:22+08:00 ] 119.144.152.172 /Module/Shopin/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013895s ]
+NOTIC: [2048] Declaration of Module\Controller\ShopinController::store() should be compatible with Common\Controller\BaseController::store(Common\Controller\Model $model, $data, Closure $callback = NULL) /home/wwwroot/yishion/APP/Module/Controller/ShopinController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `ys_auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ys_auth_group_access a INNER JOIN ys_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ys_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `ys_auth_rule` WHERE `id` IN ('1','3','29','2','5','8','10','11','12','6','7','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_nav` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ys_project` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_project` WHERE `uid` = 4  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+

@@ -1,0 +1,2285 @@
+[ 2017-10-05T08:49:44+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016511s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 47 行.
+
+[ 2017-10-05T09:42:31+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016823s ]
+
+[ 2017-10-05T09:45:02+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018926s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 47 行.
+
+[ 2017-10-05T09:46:00+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.066252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.068810s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 48 行.
+
+[ 2017-10-05T09:47:16+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.025916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027189s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 32 行.
+
+[ 2017-10-05T09:48:01+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020712s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/InspectController.class.php 第 29 行.
+
+[ 2017-10-05T09:48:02+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014796s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/InspectController.class.php 第 29 行.
+
+[ 2017-10-05T10:17:53+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014166s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 49 行.
+
+[ 2017-10-05T10:18:11+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020613s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 49 行.
+
+[ 2017-10-05T10:38:21+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025895s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 49 行.
+
+[ 2017-10-05T10:55:42+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028531s ]
+
+[ 2017-10-05T10:55:43+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020671s ]
+
+[ 2017-10-05T10:55:49+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015066s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 49 行.
+
+[ 2017-10-05T11:02:13+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025202s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/APP/Common/Common/helper.php:9) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/APP/Common/Common/helper.php:9) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-10-05T11:03:37+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020247s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/APP/Common/Common/helper.php:9) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/APP/Common/Common/helper.php:9) /home/wwwroot/yishion/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-10-05T11:03:56+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.035853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037450s ]
+ERR: 模板不存在:./APP/Reception/View/Inspect/tasknew.html
+
+[ 2017-10-05T11:04:23+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.026718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000956s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002267s ]
+
+[ 2017-10-05T11:04:57+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.056275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.058355s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/InspectController.class.php 第 31 行.
+
+[ 2017-10-05T11:06:08+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017754s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/InspectController.class.php 第 31 行.
+
+[ 2017-10-05T11:08:25+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026727s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 30 行.
+
+[ 2017-10-05T11:08:26+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025156s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 30 行.
+
+[ 2017-10-05T11:10:11+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015027s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 24 行.
+
+[ 2017-10-05T11:10:46+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/APP/Common/Common/helper.php:9) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/APP/Common/Common/helper.php:9) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/APP/Common/Common/helper.php:9) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-10-05T11:12:51+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.020959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021976s ]
+
+[ 2017-10-05T11:13:25+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013768s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 28 行.
+
+[ 2017-10-05T11:33:13+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020889s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 24 行.
+
+[ 2017-10-05T11:33:30+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017380s ]
+NOTIC: [8] Undefined variable: wx /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 24 行.
+
+[ 2017-10-05T11:34:04+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020540s ]
+NOTIC: [8] Trying to get property of non-object /home/wwwroot/yishion/APP/Reception/Controller/OAuthController.class.php 第 24 行.
+
+[ 2017-10-05T11:35:22+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.021731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023183s ]
+
+[ 2017-10-05T11:35:26+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018414s ]
+
+[ 2017-10-05T11:37:46+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019130s ]
+
+[ 2017-10-05T11:38:30+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.021161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022280s ]
+
+[ 2017-10-05T11:39:03+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028864s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001239s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2017-10-05T11:39:39+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002169s ]
+
+[ 2017-10-05T11:39:41+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=Wj592uYMkn75EXLuiIh2drSEeY43M2s9WJssHSnInsk&state=ac101957bdf907819998290d24a8bca3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018765s ]
+ERR: redirect_uri unauthorized, hint: [1507174845_467ae4a7758507b43ea232ab532c90f4]
+
+[ 2017-10-05T11:47:42+08:00 ] 113.79.14.175 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023857s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2017-10-05T11:47:44+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=YAXsB6cpPqmq1xCW4uQuX1uprR2kPK-LMeugWz0-8EI&state=0f2e875987076f5060b67b94acae9d9d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019154s ]
+ERR: redirect_uri unauthorized, hint: [1507175329_17e622f26d8b5f6a593f7f1f66560c5c]
+
+[ 2017-10-05T11:49:23+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/yishion/vendor/symfony/http-foundation/Response.php:1279) /home/wwwroot/yishion/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-10-05T11:49:25+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=3MSMMlyVAii3IqQn3NqJh2pxyRZ9Ij-m_ntruU2F688&state=319fc5738f3b8b2051774ff44402c728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015121s ]
+ERR: redirect_uri unauthorized, hint: [1507175429_9503a3185ccfc24badd0c667521f75a1]
+
+[ 2017-10-05T11:57:27+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=K3OobmZWIblXXcPilPHd7zliy_YeOvW4PdXysI6485U&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013909s ]
+ERR: redirect_uri unauthorized, hint: [1507175912_41b24e804d2a646ea832253e9898cdd7]
+
+[ 2017-10-05T12:03:28+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=eiJVq1sZWLucqwIeza-lE6F8wlM7CAk6d-MsECG699E&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020557s ]
+ERR: redirect_uri unauthorized, hint: [1507176272_bc9a047a9f08e03f00f9b7af0e61ed17]
+
+[ 2017-10-05T13:38:31+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=IG-e-ZolJTZh4RNgH_I7GwwkySijuJEx7YXRBluVyRE&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000784s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002721s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.100361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103282s ]
+ERR: redirect_uri unauthorized, hint: [1507181976_1af7e92efe294f8290b9e6ea1d90800d]
+
+[ 2017-10-05T14:04:11+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=NPnYftp_xZdLcdWxY2zjEY_PDssgOD6EDu_E1bHyFYA&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.034655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036580s ]
+ERR: redirect_uri unauthorized, hint: [1507183515_e84a747055222fd0e57f325a546b0dbd]
+
+[ 2017-10-05T14:04:38+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=gyKe5UkjidQ6TfN2VJNPKdKLqe-TzXUfspTyQ2W6ACU&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.021248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022054s ]
+ERR: redirect_uri unauthorized, hint: [1507183543_0e15bae17b24cde38ffb65c37e061fa6]
+
+[ 2017-10-05T14:06:52+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=eo956eG42wcDheaYh_cwMP88DGsDtDPPiAAeRd7uMqc&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.034010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035651s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/yishion/vendor/freyo/entwechat/src/Core/AbstractAPI.php 第 215 行.
+ERR: redirect_uri unauthorized, hint: [1507183677_1d25c614668086cd88732b7078c0ea2a]
+
+[ 2017-10-05T14:09:20+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=eo956eG42wcDheaYh_cwMP88DGsDtDPPiAAeRd7uMqc&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.037624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038822s ]
+NOTIC: [8] Array to string conversion /home/wwwroot/yishion/vendor/freyo/entwechat/src/Core/AbstractAPI.php 第 115 行.
+ERR: invalid code, hint: [1507183825_161b21b375d706b3fface42947cac417]
+
+[ 2017-10-05T14:29:17+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.041071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003043s ]
+
+[ 2017-10-05T14:38:52+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=zQ2LO-Ccuwciri_g50LKBEYVybOmqdhvYkYBZscUzN0&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.065165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.066237s ]
+
+[ 2017-10-05T14:39:21+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=zQ2LO-Ccuwciri_g50LKBEYVybOmqdhvYkYBZscUzN0&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.028336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029732s ]
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-10-05T14:39:23+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=zQ2LO-Ccuwciri_g50LKBEYVybOmqdhvYkYBZscUzN0&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.027522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029759s ]
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2017-10-05T14:39:26+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=83bPCiARCAEYaIS8bI2rZmCPQ4Cd22OKFD_t0eSYifk&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015392s ]
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-10-05T14:41:08+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015834s ]
+
+[ 2017-10-05T14:44:08+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.020176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2017-10-05T14:45:08+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019419s ]
+
+[ 2017-10-05T14:45:21+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=jzf3VYqX_0TkFcpbSiztMKOKrX_4RjbXYkmr3YOieOo&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019793s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2017-10-05T14:55:48+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=5KYQQcAaW9MASvVd12fm4OpFypdtEsjOnnhWo3-Xxnc&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.048930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050281s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2017-10-05T14:56:06+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=prClGgaw0MBQyh1BbejIjL6O7Zufv46BndJYpZrcKGg&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020026s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2017-10-05T15:01:33+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=qKNbHrC56SfVtQYG0L5ymL_9ueDdMpmCDPS1rKTNuww&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024086s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2017-10-05T15:02:23+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=SaANhsmJ5iq0yJnNghWDQcac_4ypUZuZnMAb-A9EMww&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.032851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034783s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-10-05T15:02:31+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=dDCKrirqEbsnqMSee3044NLWGvzKMlf80r0FznzFruY&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018232s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2017-10-05T15:05:47+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=prClGgaw0MBQyh1BbejIjL6O7Zufv46BndJYpZrcKGg&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.028583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029767s ]
+
+[ 2017-10-05T15:06:55+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=prClGgaw0MBQyh1BbejIjL6O7Zufv46BndJYpZrcKGg&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018693s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+
+[ 2017-10-05T15:07:33+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=prClGgaw0MBQyh1BbejIjL6O7Zufv46BndJYpZrcKGg&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016492s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+
+[ 2017-10-05T15:07:35+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=prClGgaw0MBQyh1BbejIjL6O7Zufv46BndJYpZrcKGg&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019151s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+
+[ 2017-10-05T15:07:38+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=prClGgaw0MBQyh1BbejIjL6O7Zufv46BndJYpZrcKGg&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.022343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023456s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+
+[ 2017-10-05T15:07:59+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=q9l9BcU8akTk2KA-h9I-ETVbYwidB90rzFZ8Mi6u1AY&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019217s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+
+[ 2017-10-05T15:16:55+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=LCLbqZJtjtpVC7znxHuWGqUAJCRRpzZw2E-HEPbUjq4&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.063844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.064910s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+
+[ 2017-10-05T15:22:34+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=l99vFxSenRjpinyIohEuKRD0NWzIoVtqLcyldUTPZME&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.036818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037899s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+
+[ 2017-10-05T15:22:53+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=7umJua4FA31rSDdWP3slkcvWk7K7xy1uV2indHKuLjc&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019780s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-10-05T15:29:00+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.022182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022864s ]
+
+[ 2017-10-05T15:29:04+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=uWmApei20gsfsRN17XOrONwhOKcN8lphemoUsheypX4&state=WechatOAuth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019039s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-10-05T15:29:54+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019292s ]
+
+[ 2017-10-05T15:29:57+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=2qv15KC3JSZ-B3_s5XAgH-hjJgfduBD_rlV3Ok6HEHQ&state=WechatOAuth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020432s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2017-10-05T15:34:06+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=Ti2OaC8DaQYMkW4Ayaf6tmiNLIf5LM8ysdJLygfsh38&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018743s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-10-05T15:34:12+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=Ti2OaC8DaQYMkW4Ayaf6tmiNLIf5LM8ysdJLygfsh38&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021046s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-10-05T15:35:34+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=NO-USEdjYj8KwDa09oHa1gVwxSij-SDZLcUkz4e1aVc&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020189s ]
+
+[ 2017-10-05T15:36:50+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=CYgPuoUX4YVgVJe5ADZeJwtzj-DHHoUEC-L3-yli1Mw&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016103s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-10-05T15:43:31+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019088s ]
+
+[ 2017-10-05T15:43:34+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=XHm8QBYC9QHmcyxVXi9XkKbhB-HXzH4-4IXmOZAwRsk&state=WechatOAuth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018660s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 104 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 498 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2017-10-05T15:50:59+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=QDiNckRDxM0KFyt8m7YI2synab54jrN24a1Y6flIWPI&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015727s ]
+
+[ 2017-10-05T15:51:57+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=cXYNB1-88HKv6xuaH6eFb4zT25x4ksHM6PJvAlBgPzs&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018819s ]
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2017-10-05T15:53:43+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=eS8FowYZG0nw115JtdL0NOsUBltqsG_hMUzcr6N6A1w&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.034279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035095s ]
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-10-05T15:53:57+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=tpb4v0t8vN0QhLQV3Dz1VwIpsww7IUsHn10ZcmQALLs&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021140s ]
+
+[ 2017-10-05T15:54:32+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=yeNuldEC08DUZX-XwNmPVPGhfDuH2vTNeX8hMbR4zCE&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013697s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+
+[ 2017-10-05T15:55:02+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=VphEFLSMbVm7sE3qGJZcpVBw-sNl7hT7QzXb6Gn7vmU&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025198s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+
+[ 2017-10-05T15:55:04+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=7RlKBlrop121Bh9Q_aNE5T2frSL7mfJ1e3q8l7iG0CQ&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014128s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+
+[ 2017-10-05T15:55:26+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=kZHVIHE7gFhoB7mQByfOFnnf_ZZNumTwC7eTb2M72rM&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019063s ]
+
+[ 2017-10-05T15:55:49+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=L0LjLN9_DZ4rzcOv40KY-mm1bY2YkZjxL1CPoVlx2II&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013619s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+
+[ 2017-10-05T16:11:07+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=L0LjLN9_DZ4rzcOv40KY-mm1bY2YkZjxL1CPoVlx2II&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001903s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.059204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.061274s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+
+[ 2017-10-05T16:11:10+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=L0LjLN9_DZ4rzcOv40KY-mm1bY2YkZjxL1CPoVlx2II&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019334s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+
+[ 2017-10-05T16:14:00+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=5v9cN7gfCVD3QVjOhbU19YKWp8eIZ-wiE-fg_HvgIUI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017859s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+
+[ 2017-10-05T16:14:19+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew?code=0ebIk5LhHbktv3FpwjrP8m9fggd5-3qTQWB8kPce3vY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.022389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023497s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001700s ]
+
+[ 2017-10-05T16:35:40+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=JtramSQnfeViIUnj1Fsf75qShSGTyXtTbWFVIRtGd70&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019246s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-10-05T16:36:36+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=vrCAC0VO5ezI68nBoO4RVGg5bpIefmiHomfVNxVjbZU&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.019908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021056s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-10-05T16:59:50+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=vrCAC0VO5ezI68nBoO4RVGg5bpIefmiHomfVNxVjbZU&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015448s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2017-10-05T17:00:03+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=vrCAC0VO5ezI68nBoO4RVGg5bpIefmiHomfVNxVjbZU&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.018923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020408s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2017-10-05T17:00:29+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=vrCAC0VO5ezI68nBoO4RVGg5bpIefmiHomfVNxVjbZU&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017805s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-10-05T17:01:23+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=-Azfq46LfKjzUhO9OWAVjg__-t6gE6ZYQ6mkv5zsIqE&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.137042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.137725s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+NOTIC: [2] file_put_contents(/qywx.log): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 499 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2017-10-05T17:01:46+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew?code=-Azfq46LfKjzUhO9OWAVjg__-t6gE6ZYQ6mkv5zsIqE&state=384a523fd310638080f1f0847edc1d0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015389s ]
+NOTIC: [2] file_put_contents(/access_token_cache.json): failed to open stream: Permission denied /home/wwwroot/yishion/ThinkPHP/Library/Org/WeChat/Qywx.class.php 第 105 行.
+
+[ 2017-10-05T17:03:07+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-10-05T17:03:31+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-10-05T17:03:35+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-10-05T17:04:17+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-10-05T17:05:47+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002539s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.043551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000963s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2017-10-05T17:06:30+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.024881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2017-10-05T17:07:10+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016966s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-10-05T17:08:07+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2017-10-05T17:08:39+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-10-05T17:08:52+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2017-10-05T17:08:57+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.022814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.016242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2017-10-05T17:09:12+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2017-10-05T17:09:55+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.020095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2017-10-05T17:12:53+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2017-10-05T17:13:14+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.020072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-10-05T17:13:54+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.020646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2017-10-05T17:14:07+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-10-05T17:14:56+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-10-05T17:15:48+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.023161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2017-10-05T17:16:19+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.022263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-10-05T17:16:34+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-10-05T17:16:56+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-10-05T17:21:08+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2017-10-05T17:21:22+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.012711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-10-05T17:24:29+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-10-05T17:27:46+08:00 ] 119.144.152.172 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: larea /home/wwwroot/yishion/Runtime/Cache/Reception/698bc80a180485dc805a7c28c67b1836.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-10-05T17:28:04+08:00 ] 14.17.37.145 /Reception/Inspect/tasknew
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `ys_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ys_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.015400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: larea /home/wwwroot/yishion/Runtime/Cache/Reception/698bc80a180485dc805a7c28c67b1836.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+

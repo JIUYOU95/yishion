@@ -1,0 +1,15 @@
+.vote .head,.vote .foot{height:50px;line-height:50px;font-size:18px;}
+
+.centent .item li{padding-top:10px;border-top:2px solid #008080;}
+.centent .item li table tr td:first-child{width:30%;border-right:1px solid #ddd;}
+.centent .item button{margin-bottom:20px;}
+
+
+.msg{font-size:34px;margin-top:40%;text-align:center;}
+.msg i{font-size:3em;display:block;padding-bottom:20px;}
+.msg .fa-check-circle{color:#09bb07;}
+.msg span{display:block;}
+
+@media (max-width: 600px){
+    .centent .item li table img{ width:100%; height:auto;}
+}

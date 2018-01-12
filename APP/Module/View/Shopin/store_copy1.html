@@ -1,0 +1,216 @@
+<include file="Public:header" />
+
+<ul class="breadcrumb row navigation">
+    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="#">巡店系统</a></li>
+    <li class="active">门店管理</li>
+</ul>
+<!--门店管理-->
+<div class="row">
+    <div class="col-sm-12">
+        <!--搜索界面-->
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <select class="form-control js-example-theme-single" ng-model="topL" ng-change="selectChange(topL);">
+                            <option value="">请选择大区</option>
+                            <foreach name="larea" item="v">
+                            <option value="{$v}">{$v}</option>
+                            </foreach>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control js-example-theme-single" ng-model="topS">
+                            <option value="">请选择小区</option>
+                            <option ng-repeat="sv in sub track by $index">{{sv}}</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="门店名称" ng-model="name">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="button" ng-click="result()"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" ng-click="result()"><i class="fa fa-search"></i> 搜索</button>
+                    <button type="button" class="btn btn-success" ng-click="add()"><i class="fa fa-plus"></i> 新增</button>
+                    <button type="button" class="btn btn-info"><i class="fa fa-cloud-download"></i> Excel模板</button>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-cloud-upload"></i> Excel上传</button>
+                </form>
+
+            </div>
+        </div>
+        <!--end搜索界面-->
+        <!--门店列表-->
+        <table class="table table-bordered table-condensed">
+            <thead>
+                <tr>
+                    <th>门店名称</th>
+                    <th>大区</th>
+                    <th>小区</th>
+                    <th>具体地址</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="v in products">
+                    <td>{{v.name}}</td>
+                    <td>{{v.larea}}</td>
+                    <td>{{v.sarea}}</td>
+                    <td>{{v.address}}</td>
+                    <td>{{v.status?'营业中':'已关闭'}}</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <!--<div ng-if="myPage.totalItems" my-pagination pg="myPage"></div>-->
+        <tm-pagination conf="paginationConf"></tm-pagination>
+    </div>
+</div>
+
+<!--新增门店-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">新增门店</h4>
+            </div>
+            <form class="form-horizontal" action="" method="post">
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">门店名称</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="name" placeholder="门店名称" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">大区</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="larea" placeholder="大区" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">小区</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="sarea" placeholder="小区" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">具体地址</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="address" placeholder="具体地址" autocomplete="off">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="submit" class="btn btn-primary">保存</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--上传文件-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">文件上传</h4>
+            </div>
+            <form role="form" action="{:U('upload')}" method="post" enctype="multipart/form-data">
+            <div class="modal-body">
+                <input type="file"  id="file" name="exl">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="submit" class="btn btn-primary">上传</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+function controller($scope, $http, $filter) {
+    $scope.topL='';
+    $scope.topS='';
+    $scope.add = function(){
+        $('#myModal').modal('show');
+    }
+    // 重新获取数据条目
+    var reGetProducts = function(){
+        // 发送给后台的请求数据
+        var postData = {
+            currentPage: $scope.paginationConf.currentPage,
+            itemsPerPage: $scope.paginationConf.itemsPerPage
+        };
+        $http.post("{:U('get_store')}", postData).success(function(data){
+            // 变更分页的总数
+            $scope.paginationConf.totalItems = data.total;
+            // 变更产品条目
+            $scope.products = data.items;
+        });
+    };
+    // 配置分页基本参数
+    $scope.paginationConf = {
+        currentPage:1,
+        itemsPerPage:15
+    };
+    // 通过$watch currentPage和itemperPage 当他们一变化的时候，重新获取数据条目
+    $scope.$watch('paginationConf.currentPage + paginationConf.itemsPerPage', reGetProducts);
+
+
+    //搜索数据
+    $scope.result=function () {
+        // 重新获取数据条目
+        var reGetProductsD = function(){
+            // 发送给后台的请求数据
+            var postData = {
+                currentPage: $scope.paginationConf.currentPage,
+                itemsPerPage: $scope.paginationConf.itemsPerPage,
+                topL:$scope.topL,
+                topS:$scope.topS,
+                name:$scope.name
+            };
+            $http.post("{:U('get_store')}", postData).success(function(data){
+                // 变更分页的总数
+                $scope.paginationConf.totalItems = data.total;
+                // 变更产品条目
+                $scope.products = data.items;
+            });
+        };
+        // 配置分页基本参数
+        $scope.paginationConf = {
+            currentPage:1,
+            itemsPerPage:15
+        };
+        // 通过$watch currentPage和itemperPage 当他们一变化的时候，重新获取数据条目
+        $scope.$watch('paginationConf.currentPage + paginationConf.itemsPerPage', reGetProductsD);
+
+//        $http.get("{:U('get_store')}",{params:{'topL':$scope.topL,'topS':$scope.topS,'name':$scope.name}}).success(function (res) {
+//            $scope.products=res.item;
+//            console.log(res);
+//        });
+    }
+    //二级联动菜单
+    $scope.selectChange=function (topL) {
+        $scope.topS='';
+        $scope.sub='';
+        $http.get("{:U('get_sarea')}",{params:{'topL':topL}}).success(function (response) {
+            response=='null'?$scope.sub='':$scope.sub=response;
+        },function error() {
+            $scope.sub='';
+        });
+    }
+
+    //下拉美化
+    $(".js-example-theme-single").select2({
+        theme: "classic",
+    });
+}
+</script>
+<include file="Public:footer" />

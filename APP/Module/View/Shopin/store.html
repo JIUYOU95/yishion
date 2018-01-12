@@ -1,0 +1,190 @@
+<include file="Public:header" />
+
+<ul class="breadcrumb row navigation">
+    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="#">巡店系统</a></li>
+    <li class="active">门店管理</li>
+</ul>
+<!--门店管理-->
+<div class="row">
+    <div class="col-sm-12">
+        <!--搜索界面-->
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline" action="{:U('store')}" method="post">
+                    <div class="form-group">
+                        <select class="form-control js-example-theme-single" name="topL" ng-model="topL" ng-change="selectChange(topL);">
+                            <option value="">请选择办事处</option>
+                            <foreach name="larea" item="v">
+                            <option value="{$v}">{$v}</option>
+                            </foreach>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control js-example-theme-single" name="topS" ng-model="topS">
+                            <option value="">请选择区域</option>
+                            <option ng-repeat="sv in sub track by $index">{{sv}}</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="门店名称" name="name">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> 搜索</button>
+                    <button type="button" class="btn btn-success" ng-click="add()"><i class="fa fa-plus"></i> 新增</button>
+                    <button type="button" class="btn btn-info" ng-click="down()"><i class="fa fa-cloud-download"></i> Excel模板</button>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-cloud-upload"></i> Excel上传</button>
+                </form>
+
+            </div>
+        </div>
+        <!--end搜索界面-->
+        <!--门店列表-->
+        <table class="table table-bordered table-condensed">
+            <thead>
+                <tr>
+                    <th>店铺名称</th>
+                    <th>店铺编号</th>
+                    <th>办事处</th>
+                    <th>区域</th>
+                    <th>具体地址</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+            <foreach name="data.data" item="v">
+                <tr>
+                    <td>{$v.name}</td>
+                    <td>{$v.shopnum}</td>
+                    <td>{$v.larea}</td>
+                    <td>{$v.sarea}</td>
+                    <td>{$v.address}</td>
+                    <td>
+                        <if condition="$v['status'] eq 1">
+                            营业中
+                            <else />
+                            已关闭
+                        </if>
+                    </td>
+                    <td>
+                        <a href="#" ng-click="edit_store({$v['id']})">编辑</a> |
+                        <a href="{:U('del_store',array('id'=>$v['id']))}">删除</a>
+                    </td>
+                </tr>
+            </foreach>
+            </tbody>
+        </table>
+        <div class="page">
+            {$data.page}
+        </div>
+    </div>
+</div>
+<!--新增门店-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">门店操作</h4>
+            </div>
+            <form class="form-horizontal" action="{:U('add_store')}" method="post">
+            <div class="modal-body">
+                <input type="hidden" name="id" value="{{edit_data.id}}" ng-if="edit_data.id" />
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">门店名称</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="name" placeholder="门店名称" autocomplete="off" required value="{{edit_data.name}}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">大区</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="larea" placeholder="大区" autocomplete="off" required value="{{edit_data.larea}}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">小区</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="sarea" placeholder="小区" autocomplete="off" required value="{{edit_data.sarea}}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">具体地址</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="address" placeholder="具体地址" autocomplete="off" value="{{edit_data.address}}">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="submit" class="btn btn-primary">保存</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--上传文件-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">文件上传</h4>
+            </div>
+            <form role="form" action="{:U('upload')}" method="post" enctype="multipart/form-data">
+            <div class="modal-body">
+                <input type="file"  id="file" name="exl">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="submit" class="btn btn-primary">上传</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+function controller($scope, $http, $filter) {
+
+    $scope.topL='';
+    $scope.topS='';
+    //触发新增
+    $scope.add = function(){
+        $scope.edit_data="";
+        $('#myModal').modal('show');
+    }
+    //触发修改
+    $scope.edit_store=function (id) {
+        $scope.edit_id=id;
+        $http.get("{:U('edit_store')}",{params:{'id':id}}).success(function (data) {
+            $scope.edit_data=data;
+        });
+        $('#myModal').modal('show');
+    }
+    $scope.down=function () {
+        window.open("__PUBLIC__/store_down.xlsx");
+    }
+
+    //二级联动菜单
+    $scope.selectChange=function (topL) {
+        $scope.topS='';
+        $scope.sub='';
+        $http.get("{:U('get_sarea')}",{params:{'topL':topL}}).success(function (response) {
+            response=='null'?$scope.sub='':$scope.sub=response;
+        },function error() {
+            $scope.sub='';
+        });
+    }
+
+    //下拉美化
+    $(".js-example-theme-single").select2({
+        theme: "classic",
+    });
+}
+</script>
+<include file="Public:footer" />

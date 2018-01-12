@@ -1,0 +1,21 @@
+<script>
+    require(['util','select2'],function () {
+        require(['__PUBLIC__/js/app.js', 'css!__PUBLIC__/css/app.css']);
+        require(['angular','jquery'],function (angualr,$) {
+            m=angular.module('app', []);
+            m.filter('trustHtml',['$sce',function($sce){
+                return function(data){
+                    return $sce.trustAsHtml(data);
+                }
+            }])
+            m.controller('ctrl', ['$scope','$http','$filter', function ($scope,$http, $filter) {
+                if (angular.isFunction(controller)) {
+                    controller($scope,$http,$filter);
+                }
+            }]);
+            angular.bootstrap(document.getElementsByTagName('body'), ['app']);
+        });
+    })
+</script>
+</body>
+</html>

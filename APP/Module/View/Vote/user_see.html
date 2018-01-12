@@ -1,0 +1,42 @@
+<include file="Public:header" />
+<ul class="breadcrumb row navigation">
+    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="#">投票系统</a></li>
+    <li><a href="{:U('index')}">投票列表</a></li>
+    <li class="active">人员查看</li>
+    <a href="{:U('user_export',array('id'=>$name['id']))}" class="btn btn-primary rightbut">导出Excel</a>
+</ul>
+<div class="row vote">
+    <div class="col-sm-12">
+        <h3 class="text-center">{$name.title}</h3>
+        <table class="table table-bordered table-condensed">
+            <thead>
+            <tr>
+                <th width="10%">部门</th>
+                <th>人员</th>
+            </tr>
+            </thead>
+            <tbody>
+            <foreach name="data" item="v" key="k">
+            <tr>
+                <td>{$k}</td>
+                <td>
+                    <foreach name="v.sub" item="vo">
+                        <a href="{:U('Reception/Vote/user',array('id'=>$name['id'],'uid'=>$vo['user']))}" target="_blank">{$vo.user} \</a>
+                    </foreach>
+                </td>
+            </tr>
+            </foreach>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</div>
+
+<script>
+    function controller($scope, $http, $filter) {
+    }
+</script>
+
+<include file="Public:footer" />

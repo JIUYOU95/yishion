@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>信息提示</title>
+    <link rel="stylesheet" href="__PUBLIC__/css/vote.css">
+    <script>
+        //配置后台地址
+        var app = {
+            'base': '__PUBLIC__/vendor',
+        };
+    </script>
+    <script src="__PUBLIC__/vendor/require.js"></script>
+    <script src="__PUBLIC__/vendor/config.js"></script>
+    <style>
+        .ng-cloak {
+            display: none;
+        }
+    </style>
+</head>
+<body ng-cloak class="ng-cloak" ng-controller="ctrl">
+
+<div class="container">
+    <div class="msg">
+        <if condition="$vid eq 4">
+            <i class="fa fa-check-circle"></i>
+        <else />
+            <i class="fa fa-info-circle"></i>
+        </if>
+        <span>
+            <if condition="$vid eq 1">
+                投票不存在
+            <elseif condition="$vid eq 2"/>
+                投票未发布
+            <elseif condition="$vid eq 3"/>
+                投票时间已结束
+            <elseif condition="$vid eq 4"/>
+                投票成功
+            <elseif condition="$vid eq 5"/>
+                投票失败
+            <elseif condition="$vid eq 6"/>
+                此用户未投票
+            </if>
+        </span>
+        <if condition="$vid eq 4">
+            <a href="{:U('user',array('id'=>$s['id'],'uid'=>$s['uid']))}" class="btn btn-success">查看投票</a>
+        </if>
+
+    </div>
+</div>
+
+<script>
+    require(['util'],function () {
+        require(['angular','jquery'],function (angualr,$) {
+            m=angular.module('app', []);
+            m.filter('trustHtml',['$sce',function($sce){
+                return function(data){
+                    return $sce.trustAsHtml(data);
+                }
+            }])
+            m.controller('ctrl', ['$scope','$http','$filter', function ($scope,$http, $filter) {
+
+            }]);
+            angular.bootstrap(document.getElementsByTagName('body'), ['app']);
+        });
+    })
+</script>
+</body>
+</html>
